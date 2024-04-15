@@ -9,4 +9,5 @@ public class ApplicationDbContext : IdentityDbContext
         : base(options)
     {}
         public DbSet<Tech.Models.Contacto> DataContacto {get; set; }
+        public DbSet<Tech.Models.Producto> DataProducto {get; set; }
 }
