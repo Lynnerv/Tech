@@ -10,4 +10,5 @@ public class ApplicationDbContext : IdentityDbContext
     {}
         public DbSet<Tech.Models.Contacto> DataContacto {get; set; }
         public DbSet<Tech.Models.Producto> DataProducto {get; set; }
+        public DbSet<Tech.Models.Proforma> DataItemCarrito {get; set; }
 }
